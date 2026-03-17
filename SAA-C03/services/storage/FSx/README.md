@@ -15,6 +15,8 @@
         - capacity pool tiering 정책 제공
             - 자주 사용하지 않는 데이터를 자동으로 저비용 스토리지로 이동하는 기능
             - SSD(Storage tier) → Capacity Pool(S3 기반)로 이동
+        - iSCSI 지원 (block storage 제공)
+          - block(단일 디스크) storage 는 strong consistency 을 만들기에 유리한 구조이다.
     - FSx for Windows File Server
         - SMB 지원
     - FSx for OpenZFS

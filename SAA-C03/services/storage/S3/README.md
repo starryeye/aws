@@ -1,4 +1,5 @@
 ## S3
+- Object storage
 
 - S3 유형
   - S3 Standard
@@ -54,3 +55,7 @@
 
 - S3 Batch Operations
   - S3에 저장된 파일들에 대해 동일한 작업을 한번에 실행시킬때 사용
+
+- 참고
+  - S3 는 EBS 처럼 EC2 에 attach 하지 못한다. 하지만, API / 네트워크 접근은 가능하다.
+  - S3는 디스크가 아니라 "파일 저장소"라서 attach가 아니라 API로 사용한다
