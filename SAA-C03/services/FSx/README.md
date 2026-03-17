@@ -1,0 +1,15 @@
+## FSx
+- 고성능(low latency, high performance) 파일 스토리지 서비스
+- 유형
+  - FSx for Lustre
+    - 머신러닝, 빅데이터 분석 용도
+    - S3 연동 가능
+    - Lustre 자체 프로토콜만 지원
+  - FSx for NetApp ONTAP
+    - 다양한 OS(windows, mac os, linux) 호환
+    - Linux 기반 파일공유 프로토콜인 NFS 지원
+    - Windows 기반 파일공유 프로토콜인 SMB 지원
+  - FSx for Windows File Server
+    - SMB 지원
+  - FSx for OpenZFS
+    - NFS 지원
