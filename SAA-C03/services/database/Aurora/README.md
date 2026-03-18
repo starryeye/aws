@@ -1,6 +1,7 @@
 ## Aurora
 - AWS 에서 제공하는 고성능 RDBMS (RDS 기반)
   - Aurora MySQL, Aurora PostgreSQL 등
+  - Aurora는 RDS 기능을 대부분 지원하면서, 내부적으로 더 진화된 DB이다
 
 - 특징
   - 분산 스토리지 구조 (Shared Storage)

@@ -2,6 +2,7 @@
 
 - AWS에서 제공하는 fully managed NoSQL database
     - key-value 및 document 데이터 모델 지원
+      - 스키마가 고정되지 않는 유연한 데이터 구조
 
 - 특징
     - 서버리스 (Serverless)

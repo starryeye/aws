@@ -25,9 +25,11 @@
     - 읽기 전용 DB(비동기 복제) 를 추가
       - 읽기 성능 개선
       - 수동으로 primary 승격 가능
+      - primary 와 동일한 AZ 가 아니여도 된다.
 
   - Cross Region Read Replica
     - 다른 리전에 read replica 생성함으로써 DR (재해 복구) 용도
+    - Global Database 기능을 활성화한 Aurora 에 비해 성능이 좋지 않음
 
   - RDS Proxy
     - application, DB 간 connection 을 재사용하고 관리하여 관련 문제 예방용
