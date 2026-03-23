@@ -98,6 +98,9 @@
 
     - Auto Scaling Group (ASG)
         - 인스턴스 자동 증가/감소
+        - Warm pool 기능
+          - 인스턴스를 미리 부팅하고 대기시켜, 트래픽 급증 시 초기화 시간을 줄일 수 있음
+          - 중지 상태로 대기하면 EC2 실행 비용은 들지않고 EBS 비용만 발생시켜 효율적 운용 가능
 
     - Elastic Load Balancer (ELB)
         - 트래픽 분산
