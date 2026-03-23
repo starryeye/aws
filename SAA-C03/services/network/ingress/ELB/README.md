@@ -22,10 +22,10 @@
     - ALB (Application Load Balancer)
         - Layer 7 (HTTP/HTTPS)
         - 특징
-            - 경로 기반 라우팅 (/api, /admin)
-            - 호스트 기반 라우팅 (domain)
+            - 호스트 및 경로 기반 라우팅
             - WebSocket 지원
             - WAF(웹 어플리케이션 방화벽)에 연결 가능 (ALB 만 가능)
+            - Sticky Session 지원
         - 사용 케이스
             - 웹 애플리케이션, API 서버
 
@@ -42,12 +42,9 @@
         - Layer 3/4
         - 특징
             - 보안 장비 연동 (Firewall, IDS/IPS)
+              - 트래픽을 서드파티 보안 장비로 전달
         - 사용 케이스
             - 네트워크 보안 처리
-
-    - CLB (Classic Load Balancer)
-        - 구버전 (legacy)
-        - 신규 사용 비추천
 
 ---
 
@@ -74,19 +71,6 @@
 
     - Security Group (ALB/NLB 일부)
     - TLS/SSL termination 지원
-
----
-
-- 고급 기능
-
-    - Sticky Session (Session Affinity)
-        - 동일 사용자 요청을 동일 서버로 전달
-
-    - Cross-Zone Load Balancing
-        - AZ 간 트래픽 균등 분산
-
-    - Auto Scaling 연동
-        - ASG(auto scaling group) 와 함께 자동 확장
 
 ---
 
