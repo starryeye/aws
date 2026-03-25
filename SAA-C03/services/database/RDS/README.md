@@ -38,3 +38,7 @@
   - RDS Blue/Green 배포
     - blue 와 동기화된 별도의 green 을 생성
     - green 을 test 하고 다운타임 최소화(near zero downtime)하여 트래픽을 green 으로 전환해주는 기능
+
+  - RDS 자동 백업
+    - 최대 보존 기간 35일
+      - AWS Backup 은 그보다 훨씬 길다.

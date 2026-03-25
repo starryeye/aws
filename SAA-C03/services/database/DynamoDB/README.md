@@ -2,7 +2,7 @@
 
 - AWS에서 제공하는 fully managed NoSQL database
     - key-value 및 document 데이터 모델 지원
-      - 스키마가 고정되지 않는 유연한 데이터 구조
+        - 스키마가 고정되지 않는 유연한 데이터 구조
 
 - 특징
     - 서버리스 (Serverless)
@@ -42,6 +42,10 @@
     - Streams
         - 데이터 변경 이벤트를 스트림으로 제공
         - Lambda 등과 연동 가능
+
+    - PITR (Point-in-Time Recovery)
+        - 최대 35일간 데이터 시점 복구 가능
+          - AWS Backup 은 그보다 훨씬 길다.
 
 ---
 
