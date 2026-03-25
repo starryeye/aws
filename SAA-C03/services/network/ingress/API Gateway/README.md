@@ -74,6 +74,7 @@
 
     - Edge-optimized
         - 전세계 사용자의 API 응답 속도를 줄여준다.
+        - CloudFront 네트워크를 활용한다.
 
 ---
 

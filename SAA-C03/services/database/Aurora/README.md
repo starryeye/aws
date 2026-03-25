@@ -28,6 +28,10 @@
   - Failover
     - 장애 발생 시 수 초 내 자동 전환
 
+  - Serverless v2
+    - 온디맨드 자동 확장형 데이터베이스로..
+    - 트래픽에 따라 용량(Compute)이 자동으로 실시간 확장/축소
+
 
 - 참고. global database 기능
 - write
