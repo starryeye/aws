@@ -8,7 +8,7 @@
 ## 핵심 개념
 
 - 특정 서비스만 Private 하게 연결
-- VPC Endpoint 의 Interface Endpoint 기반이다.
+- AWS VPC Endpoint 의 Interface Endpoint 기반이다.
 - ENI 를 통해 Private IP 로 접근
 
 ---

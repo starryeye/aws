@@ -67,7 +67,7 @@ CIDR 충돌 | 없음 | 없음 | 없음 | 불가 |
 
 - NAT Gateway = "인터넷으로 나가는 출구"
 - VPC Endpoint = "AWS 서비스로 가는 내부 통로"
-- PrivateLink = "특정 서비스만 Private하게 연결"
+- PrivateLink = "특정 서비스만 Private하게 연결", VPC Endpoint 의 일종이다.
 - VPC Peering = "VPC 전체를 연결"
 
 ---

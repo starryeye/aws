@@ -35,7 +35,7 @@
 
 ---
 
-### 2️⃣ Interface VPC Endpoint (PrivateLink)
+### 2️⃣ Interface VPC Endpoint (=PrivateLink)
 
 - 대상 서비스
     - 대부분 AWS 서비스 (SQS, SNS, EC2 API 등)
@@ -50,13 +50,13 @@
 
 ## 동작 방식
 
-### Gateway Endpoint
+### Gateway Endpoint (Gateway VPC Endpoint)
 
     Private Subnet → Route Table → S3 / DynamoDB
 
 ---
 
-### Interface Endpoint
+### Interface Endpoint (Interface VPC Endpoint)
 
     Private Subnet → ENI → AWS 서비스
 
