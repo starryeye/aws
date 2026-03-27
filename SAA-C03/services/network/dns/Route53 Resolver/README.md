@@ -103,6 +103,9 @@
 
 ### 3️⃣ Outbound Endpoint
 
+- AWS 서비스가 On-Prem 내부에서만 사용하는 도메인 주소를 해석해주는 기능으로..
+  - AWS 서비스가 On-Prem 내부에서만 사용하는 도메인 주소로 요청 보낼 수 있게됨.
+
 #### ❌ As-Is
 
     EC2 → On-Prem 서버 (IP로만 접근)
